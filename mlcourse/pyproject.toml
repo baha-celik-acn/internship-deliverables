@@ -8,11 +8,18 @@ authors = [
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "numpy (>=2.2.4,<3.0.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "scikit-learn (>=1.6.1,<2.0.0)",
+    "matplotlib (>=3.10.1,<4.0.0)"
 ]
 
 [tool.poetry]
 packages = [{include = "mlcourse", from = "src"}]
 
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
