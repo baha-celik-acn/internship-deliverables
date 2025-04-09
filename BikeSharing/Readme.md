@@ -8,6 +8,7 @@
 - Calculating summary statistics to understand the underlying trends and distributions in the data.
 - Visualizing the data using graphs, charts, and histograms to identify any patterns or anomalies in the data.
 - Exploring correlations between variables.
+- Multicollinearity tests
 - Selecting at least three machine learning algorithms.
 - Training the models.
 - Performing cross-validation.
