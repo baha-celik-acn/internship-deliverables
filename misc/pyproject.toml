@@ -1,0 +1,32 @@
+[project]
+name = "misc"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "p3rc1va1",email = "35celik.baha@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy (>=2.2.5,<3.0.0)",
+    "matplotlib (>=3.10.1,<4.0.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "pip (>=25.0.1,<26.0.0)",
+    "scikit-learn (>=1.6.1,<2.0.0)",
+    "cmake (>=4.0.0,<5.0.0)",
+    "boost (>=0.1,<0.2)",
+    "vowpalwabbit (>=9.10.0,<10.0.0)",
+    "setuptools (>=80.0.0,<81.0.0)",
+    "regex (>=2024.11.6,<2025.0.0)",
+]
+
+[tool.poetry]
+packages = [{include = "misc", from = "src"}]
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
